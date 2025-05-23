@@ -1,0 +1,79 @@
+[gd_scene load_steps=7 format=3 uid="uid://b2oufbqkw7tm3"]
+
+[ext_resource type="Script" uid="uid://pfhu1ds4mb2u" path="res://Game/Debate_screen/debate_screen.gd" id="1_p17hf"]
+[ext_resource type="FontFile" uid="uid://46hijq5aipsp" path="res://Design/Nothing.otf" id="2_w6tk4"]
+[ext_resource type="Theme" uid="uid://2h6mpl5u4mvw" path="res://Design/theme.tres" id="3_pqcc2"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_w6tk4"]
+font = ExtResource("2_w6tk4")
+font_size = 250
+font_color = Color(0.94902, 0.666667, 0.298039, 1)
+
+[sub_resource type="Environment" id="Environment_p17hf"]
+background_mode = 3
+tonemap_mode = 4
+
+[sub_resource type="LabelSettings" id="LabelSettings_p17hf"]
+font = ExtResource("2_w6tk4")
+font_size = 50
+font_color = Color(0.94902, 0.666667, 0.298039, 1)
+
+[node name="Debate_screen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_p17hf")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+color = Color(0.0627451, 0.0941176, 0.12549, 1)
+polygon = PackedVector2Array(0, 0, 720, 0, 720, 1280, 0, 1280)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 719.0
+offset_right = 1997.0
+offset_bottom = 719.0
+rotation = 1.5708
+alignment = 1
+
+[node name="Answer" type="Label" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+text = "Answer"
+label_settings = SubResource("LabelSettings_w6tk4")
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 3
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_p17hf")
+
+[node name="Lobby_button" type="Button" parent="."]
+modulate = Color(0.94902, 0.666667, 0.298039, 1)
+custom_minimum_size = Vector2(0, 75)
+layout_mode = 2
+offset_left = 110.0
+offset_top = 73.0
+offset_right = 1252.0
+offset_bottom = 148.0
+rotation = 1.5708
+theme = ExtResource("3_pqcc2")
+text = "Back to Lobby"
+
+[node name="Real_question" type="Label" parent="."]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+offset_left = 694.0
+offset_top = -1.0
+offset_right = 1972.0
+offset_bottom = 99.0
+rotation = 1.5708
+text = "Real Question"
+label_settings = SubResource("LabelSettings_p17hf")
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[connection signal="pressed" from="Lobby_button" to="." method="_on_lobby_button_pressed"]

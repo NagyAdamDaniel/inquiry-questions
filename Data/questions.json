@@ -1,0 +1,358 @@
+[
+	{
+		"normal": "How many times do you poop a day?",
+		"impostor": "Pick a number between 0 and 5."
+	},
+	{
+		"normal": "What smell instantly makes you gag?",
+		"impostor": "What smell do you secretly enjoy?"
+	},
+	{
+		"normal": "What’s a disgusting food you actually like?",
+		"impostor": "What’s your least favorite flavor?"
+	},
+	{
+		"normal": "What’s a noise that drives you insane?",
+		"impostor": "What’s a noise that relaxes you?"
+	},
+	{
+		"normal": "What’s the most embarrassing thing you've Googled?",
+		"impostor": "What's something weird you looked up recently?"
+	},
+	{
+		"normal": "What would you ban from the internet?",
+		"impostor": "What’s your favorite niche corner of the internet?"
+	},
+	{
+		"normal": "What’s a social norm you hate?",
+		"impostor": "What’s a social norm you like following?"
+	},
+	{
+		"normal": "What food always gives you gas?",
+		"impostor": "Pick a food you’ve eaten this week."
+	},
+	{
+		"normal": "What’s a personal habit you know is gross?",
+		"impostor": "What’s a habit you’re proud of?"
+	},
+	{
+		"normal": "How long do you spend on the toilet?",
+		"impostor": "Pick a number between 1 and 20 minutes."
+	},
+	{
+		"normal": "What type of content clogs your feed?",
+		"impostor": "What kind of content do you save often?"
+	},
+	{
+		"normal": "What's a food combo people like but you hate?",
+		"impostor": "What weird food combo do you love?"
+	},
+	{
+		"normal": "What's the last thing that made you cringe?",
+		"impostor": "What made you laugh today?"
+	},
+	{
+		"normal": "What's a small thing that irrationally angers you?",
+		"impostor": "What's a small thing that makes you happy?"
+	},
+	{
+		"normal": "What common thing grosses you out?",
+		"impostor": "What's something gross that doesn't bother you?"
+	},
+	{
+		"normal": "What’s the most annoying sound in the world?",
+		"impostor": "What’s the most soothing sound to you?"
+	},
+	{
+		"normal": "What's a public behavior you find disturbing?",
+		"impostor": "What's a public behavior you find harmless?"
+	},
+	{
+		"normal": "What's a bad habit you wish you'd stop?",
+		"impostor": "What's a habit you've recently picked up?"
+	},
+	{
+		"normal": "What’s the worst time to get a phone call?",
+		"impostor": "What time do you usually get phone calls?"
+	},
+	{
+		"normal": "What's the nastiest thing you've ever touched?",
+		"impostor": "What's something soft you like to touch?"
+	},
+	{
+		"normal": "What’s a bathroom habit you’re embarrassed to admit?",
+		"impostor": "Pick a number between 1 and 10."
+	},
+	{
+		"normal": "What’s your go-to excuse when leaving a party early?",
+		"impostor": "How do you usually leave a party?"
+	},
+	{
+		"normal": "What's something you're irrationally afraid of?",
+		"impostor": "What's something you're not afraid of at all?"
+	},
+	{
+		"normal": "What would make you immediately leave a date?",
+		"impostor": "What do you always look for on a date?"
+	},
+	{
+		"normal": "What hygiene product could you live without?",
+		"impostor": "What's a hygiene product you always carry?"
+	},
+	{
+		"normal": "What's something you pretend to enjoy but secretly hate?",
+		"impostor": "What's something you genuinely enjoy that others don't?"
+	},
+	{
+		"normal": "How many times do you shower per week?",
+		"impostor": "Pick a number between 1 and 10."
+	},
+	{
+		"normal": "What’s the most annoying thing people do in public?",
+		"impostor": "What’s something you do in public without shame?"
+	},
+	{
+		"normal": "What’s something totally normal that creeps you out?",
+		"impostor": "What’s something creepy that doesn’t bother you?"
+	},
+	{
+		"normal": "What’s your grossest habit you’ll admit to?",
+		"impostor": "What’s a habit you’ve been complimented on?"
+	},
+	{
+		"normal": "What’s a smell that instantly ruins your appetite?",
+		"impostor": "Pick a smell you like."
+	},
+	{
+		"normal": "What do you hate cleaning the most?",
+		"impostor": "What’s something you clean obsessively?"
+	},
+	{
+		"normal": "What's a place you refuse to eat at?",
+		"impostor": "What's your go-to fast food place?"
+	},
+	{
+		"normal": "What part of your daily routine do you dread?",
+		"impostor": "What's the best part of your daily routine?"
+	},
+	{
+		"normal": "What do you find disgusting that others seem to enjoy?",
+		"impostor": "What do you enjoy that grosses others out?"
+	},
+	{
+		"normal": "What public space gives you anxiety?",
+		"impostor": "What public space do you feel at ease in?"
+	},
+	{
+		"normal": "What’s a chore you avoid for way too long?",
+		"impostor": "Pick a number between 1 and 10."
+	},
+	{
+		"normal": "What noise instantly annoys you?",
+		"impostor": "What noise could you fall asleep to?"
+	},
+	{
+		"normal": "What’s something in your house you should probably throw away?",
+		"impostor": "What's an object you never plan to get rid of?"
+	},
+	{
+		"normal": "What's something you hate sharing?",
+		"impostor": "What’s something you always offer to share?"
+	},
+	{
+		"normal": "What type of person annoys you instantly?",
+		"impostor": "What type of person do you vibe with instantly?"
+	},
+	{
+		"normal": "What's a minor injury that really freaks you out?",
+		"impostor": "What injury are you weirdly okay with?"
+	},
+	{
+		"normal": "What’s a piece of tech you wish didn’t exist?",
+		"impostor": "What’s a gadget you love?"
+	},
+	{
+		"normal": "How many tabs do you have open right now?",
+		"impostor": "Pick a number between 1 and 50."
+	},
+	{
+		"normal": "What’s a type of weather you hate being outside in?",
+		"impostor": "What’s your ideal outdoor weather?"
+	},
+	{
+		"normal": "What's something in your room that smells weird?",
+		"impostor": "What's your favorite scent in your room?"
+	},
+	{
+		"normal": "What's a bathroom habit you think is gross (but normal)?",
+		"impostor": "What's a bathroom habit you're proud of?"
+	},
+	{
+		"normal": "What household task do you always forget?",
+		"impostor": "Pick a number between 1 and 7."
+	},
+	{
+		"normal": "What’s a food texture you can’t stand?",
+		"impostor": "What’s a food texture you love?"
+	},
+	{
+		"normal": "What’s something you touch every day that grosses you out?",
+		"impostor": "What’s something you clean daily?"
+	},
+	{
+		"normal": "What’s your worst hygiene habit?",
+		"impostor": "What’s a hygiene routine you’re proud of?"
+	},
+	{
+		"normal": "What's a smell that reminds you of bad memories?",
+		"impostor": "What's a smell that brings back good memories?"
+	},
+	{
+		"normal": "What's a public place you avoid when possible?",
+		"impostor": "What's a public place you love visiting?"
+	},
+	{
+		"normal": "How many socks are currently unmatched in your drawer?",
+		"impostor": "Pick a number between 0 and 12."
+	},
+	{
+		"normal": "What's a daily task you always procrastinate?",
+		"impostor": "What’s something you always do first thing in the day?"
+	},
+	{
+		"normal": "What’s your least favorite part of going outside?",
+		"impostor": "What’s your favorite outdoor activity?"
+	},
+	{
+		"normal": "What’s a weird thing that always happens to you in public?",
+		"impostor": "What’s something normal you do when outside?"
+	},
+	{
+		"normal": "What's something you'd be embarrassed to admit you Googled recently?",
+		"impostor": "Pick a topic you've Googled this week."
+	},
+	{
+		"normal": "What’s a flavor that reminds you of vomit?",
+		"impostor": "What’s a flavor that reminds you of childhood?"
+	},
+	{
+		"normal": "What’s the most annoying thing someone can do while eating?",
+		"impostor": "What’s your favorite thing to eat loudly?"
+	},
+	{
+		"normal": "What's a smell that gives you a headache?",
+		"impostor": "What’s a smell that makes you hungry?"
+	},
+	{
+		"normal": "What's a public behavior that makes you uncomfortable?",
+		"impostor": "What's a thing you do in public without thinking?"
+	},
+	{
+		"normal": "What’s a food you used to like but now hate?",
+		"impostor": "What’s a food you’ve loved since childhood?"
+	},
+	{
+		"normal": "What’s a bad gift you’ve received?",
+		"impostor": "What’s a gift you gave recently?"
+	},
+	{
+		"normal": "What’s your most hated household chore?",
+		"impostor": "Pick a number between 1 and 10."
+	},
+	{
+		"normal": "What topic instantly makes you zone out?",
+		"impostor": "What topic gets you excited instantly?"
+	},
+	{
+		"normal": "What type of shoes do you find ugly?",
+		"impostor": "What shoes are you wearing right now?"
+	},
+	{
+		"normal": "What's a texture that makes your skin crawl?",
+		"impostor": "What's a texture that calms you?"
+	},
+	{
+		"normal": "What’s something you always lose around the house?",
+		"impostor": "Pick a number between 1 and 20."
+	},
+	{
+		"normal": "What kind of people do you avoid?",
+		"impostor": "What kind of people do you make friends with easily?"
+	},
+	{
+		"normal": "What's the worst thing you've stepped in barefoot?",
+		"impostor": "What’s your favorite thing to walk on barefoot?"
+	},
+	{
+		"normal": "What’s a sound that makes your skin crawl?",
+		"impostor": "Pick a relaxing sound."
+	},
+	{
+		"normal": "What’s the worst snack ever made?",
+		"impostor": "What's your go-to midnight snack?"
+	},
+	{
+		"normal": "What would you never want to touch with your bare hands?",
+		"impostor": "What’s something you enjoy the feel of?"
+	},
+	{
+		"normal": "What’s a habit that annoys everyone but you still do?",
+		"impostor": "What's a habit you're working on improving?"
+	},
+	{
+		"normal": "What's a word that makes you cringe?",
+		"impostor": "What’s your favorite-sounding word?"
+	},
+	{
+		"normal": "What kind of haircuts do you find ugly?",
+		"impostor": "What haircut did you last get?"
+	},
+	{
+		"normal": "What kind of weather ruins your mood?",
+		"impostor": "What’s your favorite type of weather?"
+	},
+	{
+		"normal": "What's something you hate about your phone?",
+		"impostor": "What's an app you open every day?"
+	},
+	{
+		"normal": "What's something you pretend to understand but don't?",
+		"impostor": "What’s something you’re genuinely good at explaining?"
+	},
+	{
+		"normal": "What’s something that instantly grosses you out in a bathroom?",
+		"impostor": "What’s something that makes a bathroom feel clean to you?"
+	},
+	{
+		"normal": "What’s a smell you associate with something bad?",
+		"impostor": "What’s a nostalgic smell for you?"
+	},
+	{
+		"normal": "What’s something weird that happens to your body?",
+		"impostor": "Pick a body part you’ve injured before."
+	},
+	{
+		"normal": "What do you do when you’re too lazy to shower?",
+		"impostor": "Pick a number between 0 and 7."
+	},
+	{
+		"normal": "What’s a food that tastes like feet to you?",
+		"impostor": "What’s a comfort food for you?"
+	},
+	{
+		"normal": "What's a small thing that irrationally grosses you out?",
+		"impostor": "What small thing always makes you smile?"
+	},
+	{
+		"normal": "What's something you've clogged a toilet with?",
+		"impostor": "Pick a number between 1 and 5."
+	},
+	{
+		"normal": "What’s something that immediately makes you feel dirty?",
+		"impostor": "What’s something that makes you feel fresh?"
+	},
+	{
+		"normal": "What’s the most annoying thing someone can do on public transport?",
+		"impostor": "What’s something you do during a commute?"
+	}
+]

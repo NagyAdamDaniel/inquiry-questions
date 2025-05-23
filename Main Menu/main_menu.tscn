@@ -1,0 +1,79 @@
+[gd_scene load_steps=6 format=3 uid="uid://b16bngbaljqcu"]
+
+[ext_resource type="Script" uid="uid://675c6ly4ggc7" path="res://Main Menu/main_menu.gd" id="1_vccqd"]
+[ext_resource type="FontFile" uid="uid://46hijq5aipsp" path="res://Design/Nothing.otf" id="2_nb5b5"]
+
+[sub_resource type="Environment" id="Environment_vccqd"]
+background_mode = 3
+tonemap_mode = 4
+
+[sub_resource type="Theme" id="Theme_nb5b5"]
+default_font = ExtResource("2_nb5b5")
+default_font_size = 50
+
+[sub_resource type="Theme" id="Theme_8ketd"]
+default_font = ExtResource("2_nb5b5")
+default_font_size = 50
+
+[node name="Main_menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_vccqd")
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+color = Color(0.0627451, 0.0941176, 0.12549, 1)
+polygon = PackedVector2Array(0, 0, 720, 0, 720, 1280, 0, 1280)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_vccqd")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 74.0
+offset_right = 657.0
+offset_bottom = 1280.0
+theme_override_constants/separation = 150
+alignment = 1
+
+[node name="Create_Room_button" type="Button" parent="VBoxContainer"]
+modulate = Color(0.94902, 0.666667, 0.298039, 1)
+custom_minimum_size = Vector2(10, 100)
+layout_mode = 2
+theme_override_fonts/font = ExtResource("2_nb5b5")
+theme_override_font_sizes/font_size = 50
+text = "Create Room"
+icon_alignment = 1
+
+[node name="Join_Room_button" type="Button" parent="VBoxContainer"]
+modulate = Color(0.94902, 0.666667, 0.298039, 1)
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+theme = SubResource("Theme_nb5b5")
+text = "Join Room"
+
+[node name="Quit_button" type="Button" parent="VBoxContainer"]
+modulate = Color(0.94902, 0.666667, 0.298039, 1)
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+theme = SubResource("Theme_8ketd")
+text = "Quit"
+
+[node name="LineEdit" type="LineEdit" parent="."]
+modulate = Color(0.94902, 0.666667, 0.298039, 1)
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+offset_left = 75.0
+offset_top = 698.0
+offset_right = 657.0
+offset_bottom = 729.0
+theme_override_fonts/font = ExtResource("2_nb5b5")
+theme_override_font_sizes/font_size = 50
+alignment = 1
+
+[connection signal="pressed" from="VBoxContainer/Create_Room_button" to="." method="_on_create_room_button_pressed"]
+[connection signal="button_up" from="VBoxContainer/Join_Room_button" to="." method="_on_join_room_button_button_up"]
+[connection signal="pressed" from="VBoxContainer/Quit_button" to="." method="_on_quit_button_pressed"]
